@@ -8,7 +8,7 @@ function App() {
     <React.Fragment>
       <Routes>
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={<MyEditor />} />
+        <Route path="/editor" element={<MyEditor />} />
       </Routes>
     </React.Fragment>
   );
